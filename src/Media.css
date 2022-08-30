@@ -1,0 +1,613 @@
+@media (max-width: 1367px){
+    #root{
+        max-width: 1366px;
+        width: 100%;
+    }
+
+    #sec1{
+        padding: 0 120px;
+    }
+}
+
+@media (max-width: 1281px) {
+    #root{
+        width: 100%;
+    }
+
+    #sec1{
+        padding: 0 90px;
+    }
+
+    #sec2_text_card > :nth-child(2){
+        font-size: 45px;
+    }
+    
+    #sec2_text_card > :nth-child(3){
+        font-size: 18px;
+    }
+
+    #sec4_img_card{
+        width: 380px;
+        height: 300px;
+    }
+
+    #sec4_img_card  >img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1112px) {
+    #root{
+        width: 100%;
+    }
+
+    header{
+        padding: 0 110px;
+    }
+
+    #we_deliver{
+        font-size: 50px;
+    }
+
+    #design_is{
+        font-size: 18px;
+    }
+
+    #sec1 {
+        padding: 0 80px;
+    }
+
+    #sec1_card {
+        width: 220px;
+        height: 90%;
+    }
+
+    #sec2_img{
+        width: 400px;
+        height: 400px;
+    }
+
+    #sec2_img  >img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #sec3_img{
+        width: 400px;
+        height: 400px;
+    }
+
+    #sec3_img  >img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #Brands{
+        padding: 0 100px;
+    }
+
+    #sub_container{
+        padding-right: 220px;
+    }
+
+    #subs_text_container{
+        margin-left: 50px;
+    }
+
+    #subs_text_container > :nth-child(1){
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #root{
+        width: 100%;
+    }
+
+    header{
+        height: auto;
+        height: 800px;
+    }
+
+    #we_deliver{
+        font-size: 40px;
+    }
+
+    #design_is{
+        font-size: 16px;
+    }
+
+    #sec1{
+        padding: 0 50px;
+    }
+
+    #sec1_card >:nth-child(2){
+        font-size: 28px;
+    }
+
+    #sec2{
+        padding: 0 110px;
+    }
+
+    #sec3{
+        padding: 0 110px;
+    }
+
+    #sec4{
+        padding: 0 110px;
+    }
+
+    #Brands  >img {
+        width: 120px;   
+    }
+
+    #sub_container{
+        padding-right: 100px;
+    }
+
+    #subs_text_container{
+        z-index: 2;
+    }
+
+    #footer_top_container{
+        padding: 0 110px;
+    }
+}
+
+@media (max-width: 908px) {
+    #root{
+        width: 100%;
+    }
+
+    nav{
+        padding: 0 100px;
+    }
+
+    #header_right{
+        width: 450px;
+        height: 450px;
+        z-index: 3;
+    }
+
+    #header_right > img{
+        width: 450px;
+        height: 450px;
+    }
+
+    #sec1{
+        padding: 0 30px;
+    }
+
+    #sec1_card {
+        width: 200px;
+    }
+
+    #sec1_card > :nth-child(2){
+        font-size: 18px;
+    }
+
+    #sec1_card > :nth-child(3){
+        font-size: 80%;
+    }
+
+    #sec2{
+        padding: 0 80px;
+    }
+
+    #sec2_img{
+        width: 350px;
+        height: 350px;
+    }
+
+    #sec2_img > img  {
+        width: 350px;
+        height: 350px;
+    }
+
+    #sec3_img{
+        width: 350px;
+        height: 350px;
+    }
+
+    #sec3_img > img  {
+        width: 350px;
+        height: 350px;
+    }
+
+    #footer_top_container{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 836px) {
+    #rot{
+        width: 100%;
+    }
+
+    header{
+        padding: 0 80px;
+    }
+
+    #sec1_cards_container{
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #sec1_card {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    #link_card{
+        width: 480px;
+    }
+
+    #sec2 {
+        margin-top: 200px;
+    }
+
+    #sec2_text_card > :nth-child(1){
+        font-size: 22px;
+    }
+
+    #sec2_text_card > :nth-child(2){
+        font-size: 30px;
+    }
+
+    #sec2_text_card > :nth-child(3){
+        font-size: 16px;
+    }
+
+    #sec2_text_card > button{
+        width: 170px;
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    #sec3{
+        margin-top: 50px;
+    }
+
+    #sec3_text_card > button{
+        width: 170px;
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    #sec4{
+        margin: 0;
+        padding: 0 80px;
+    }
+
+    #Brands{
+        padding: 0 50px;
+    }
+
+    #subs_text_container{
+        width: 500px;
+    }
+
+    #form_card > img{
+        margin-left: 10px;
+    }
+
+    #form_card > button{
+        width: 140px;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    #footer_top_container{
+        padding: 0 30px;
+    }
+
+    #logo_card > :nth-child(2){
+        font-size: 100%;
+    } 
+
+    #logo_card > :nth-child(3){
+        font-size: 100%;
+    }
+
+    #footer_footer_card {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 812px) {
+    #roote{
+        width: 100%;
+    }
+
+    header{
+        padding: 0 50px;
+        height: 600px;
+    }
+
+    #sec2{
+        padding: 0 50px;
+    }
+
+    #sec3{
+        padding: 0 50px;
+    }
+
+    #sec4{
+        padding: 0 50px;
+    }
+
+    #Brands{
+        margin: 0;
+    }
+
+    #sub_container{
+        padding: 0;
+        justify-content: center;
+    }
+
+    #sub_top_img{
+        width: 180px;
+        height: 180px;
+        margin: 0;
+    }
+
+    #sub_top_img > img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #subs_text_container > :nth-child(1){
+        font-size: 30px;
+    }
+
+    #subs_text_container > :nth-child(2){
+        font-size: 100%;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    
+    #root{
+        width: 100%;
+    }
+
+    nav{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    #root{
+        width: 100%;
+    }
+
+    #header_right{
+        width: 400px;
+        height: 400px;
+    }
+
+    #headerimg {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    #header_text{
+        z-index: 3;
+    }
+
+    #sec4_img{
+        opacity: 0.5;
+    }
+
+    #sub_container{
+        margin: 0;
+    }
+
+    #sub_top_img > img{
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 668px) {
+    #root{
+        width: 100%;
+    }
+
+    nav{
+        padding: 0 20px;
+    }
+
+    header{
+        height: 450px;
+    }
+
+    #header_text > :nth-child(1) > :nth-child(2){
+        font-size: 20px;
+    }
+
+    #header_text > :nth-child(2){
+        font-size: 30px;
+    }
+
+    #header_text > :nth-child(3){
+        font-size: 80%;
+    }
+
+    #header_text > button{
+        width: 170px;
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    #header_right {
+        width: 320px;
+        height: 320px;
+    }
+
+    #header_right  >img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    #sec2_img{
+        width: 280px;
+        height: 280px;
+    }
+
+    #sec2_img > img {
+        width: 280px;
+        height: 280px;
+    }
+
+    #sec2_text_card > :nth-child(2){
+        font-size: 20px;
+    }
+
+    #sec2_text_card > :nth-child(3){
+        font-size: 80%;
+    }
+
+    #sec3_img{
+        width: 300px;
+        height: 280px;
+    }
+
+    #Brands{
+        padding: 0 50px;
+    }
+
+    #Brands > img {
+        width: 100px;
+    }
+
+    #subs_text_container{
+        margin: 0;
+    }
+
+    #form_card{
+        width: 450px;
+    }
+
+    #logo_card > :nth-child(2){
+        font-size: 80%; 
+    }
+
+    #logo_card > :nth-child(3){
+        font-size: 80%;
+    }
+
+    #footer_link_card > p {
+        font-size: 140%;
+    }
+
+    #footer_link_card > a{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    #root{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 603px) {
+
+    #root{
+        width: 100%;
+    }
+
+    header{
+        height: 600px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #header_text{
+        width: 530px;
+    }
+
+    #sec1_text > :nth-child(2){
+        font-size: 45px;
+    }
+
+    #Brands{
+        padding: 0 10px;
+    }
+
+    #form_card{
+        margin-top: 30px;
+    }
+    footer{
+        background-image: none;
+        height: 750px;
+    }
+
+    #footer_top_container{
+        flex-wrap: wrap;
+        height: 700px !important;
+    }
+
+    #footer_link_card{
+        width: 250px;
+    }
+
+    #footer_footer_card{
+        bottom: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    #root{
+        width: 100%;
+    }
+
+    #header_text{
+        width: 480px;
+    }
+
+    #header_text > :nth-child(2){
+        font-size: 27px;
+    }
+
+    #sec1_text > :nth-child(2){
+        font-size: 40px;
+    }
+
+    #sec1_card >:nth-child(2){
+        font-size: 28px;
+    }
+
+    #sec1_card >:nth-child(3){
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    #link_card{
+        display: none;
+    }
+}
+
+@media (max-width: 416px) {}
+
+@media (max-width: 384px) {}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}

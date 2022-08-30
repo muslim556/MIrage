@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Mirage.css";
+import { Header } from "./pages/Header";
+import { Section1 } from "./pages/Section1";
+import { Section2 } from "./pages/Section2";
+import { Section3 } from "./pages/Section3";
+import { Section4 } from "./pages/Section4";
+import { Brands } from "./pages/Brands";
+import { Subscription } from "./pages/Subscription";
+import { Footer } from "./Components/Footer";
+import { Navbar } from "./Components/Navbar";
 
-function App() {
+export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Header />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Brands />
+      <Subscription />
+      <Footer />
     </div>
   );
 }
-
-export default App;
