@@ -9,7 +9,7 @@ export function Navbar() {
   return (
     <nav>
       <div>
-        <a href="s">
+        <a href="!#">
           <img
             src={logo}
             alt="logo"
@@ -20,10 +20,10 @@ export function Navbar() {
         </a>
       </div>
       <div id="link_card">
-        <a href="a">Home</a>
-        <a href="a">About</a>
-        <a href="a">Product</a>
-        <a href="a">Pricing</a>
+        <a href="!#">Home</a>
+        <a href="!#">About</a>
+        <a href="!#">Product</a>
+        <a href="!#">Pricing</a>
       </div>
       <button id="nav_btn">
         <img
